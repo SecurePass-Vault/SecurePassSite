@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="SecurePass - A professional password manager with military-grade encryption and recovery options.">
+    <title>SecurePass - Your Secure Password Manager</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <span class="logo-text">SecurePass</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#why">Why Use It</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#security">Security</a></li>
+                <li><a href="#pricing">Pricing</a></li>
+                <li><a href="#download">Download</a></li>
+                <li><a href="#about">About</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>SecurePass</h1>
+                <p class="tagline">Enterprise Password Management for Everyone</p>
+                <p class="description">
+                    Military-grade AES-256-GCM encryption, offline-first design, and complete control over your data.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#download" class="cta-button primary">Download Now</a>
+                    <a href="#why" class="cta-button secondary">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Use It Section -->
+    <section id="why" class="why-use">
+        <div class="container">
+            <h2>Why Choose SecurePass?</h2>
+            <div class="why-grid">
+                <div class="why-card">
+                    <div class="why-icon">🛡️</div>
+                    <h3>Your Data, Your Control</h3>
+                    <p>
+                        All passwords stored locally. No cloud, no third parties, no data harvesting. 
+                        You own your vault completely.
+                    </p>
+                </div>
+
+                <div class="why-card">
+                    <div class="why-icon">🔐</div>
+                    <h3>Unbreakable Encryption</h3>
+                    <p>
+                        Military-grade AES-256-GCM encryption with PBKDF2 key derivation. 
+                        Even if your vault is stolen, data remains inaccessible.
+                    </p>
+                </div>
+
+                <div class="why-card">
+                    <div class="why-icon">⚡</div>
+                    <h3>Zero Trust Needed</h3>
+                    <p>
+                        Open-source architecture and transparent security design. 
+                        No need to blindly trust a company with your passwords.
+                    </p>
+                </div>
+
+                <div class="why-card">
+                    <div class="why-icon">🆓</div>
+                    <h3>Completely Free</h3>
+                    <p>
+                        No subscriptions, no premium features, no hidden costs. 
+                        Professional security without paying a dime.
+                    </p>
+                </div>
+
+                <div class="why-card">
+                    <div class="why-icon">🔄</div>
+                    <h3>Never Lose Access</h3>
+                    <p>
+                        Dual recovery system. Forgot your password? Use your recovery key. 
+                        Always have a way back into your vault.
+                    </p>
+                </div>
+
+                <div class="why-card">
+                    <div class="why-icon">⏱️</div>
+                    <h3>Instant Protection</h3>
+                    <p>
+                        Auto-lock after inactivity ensures your vault is always protected. 
+                        Works offline, works everywhere, no internet needed.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+        <div class="container">
+            <h2>Powerful Features</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">🔒</div>
+                    <h3>Military-Grade Encryption</h3>
+                    <p>
+                        AES-256-GCM encryption ensures your passwords are protected with the highest 
+                        security standards used by governments and enterprises.
+                    </p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">🔑</div>
+                    <h3>Recovery Keys</h3>
+                    <p>
+                        Never lose access to your vault. Generate recovery keys in a human-readable format 
+                        that can restore your vault even if you forget your master password.
+                    </p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">⏱️</div>
+                    <h3>Auto-Lock Protection</h3>
+                    <p>
+                        Automatically locks your vault after a customizable period of inactivity. 
+                        Default 5 minutes, adjustable to your security needs.
+                    </p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">💾</div>
+                    <h3>Secure Local Storage</h3>
+                    <p>
+                        All your passwords are stored locally in encrypted vault files. 
+                        Full control over your data—no cloud dependency, no third parties.
+                    </p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">🔄</div>
+                    <h3>Easy Password Management</h3>
+                    <p>
+                        Intuitive UI for adding, editing, and organizing your passwords with titles, 
+                        usernames, websites, and detailed notes.
+                    </p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">⚙️</div>
+                    <h3>Customizable Settings</h3>
+                    <p>
+                        Adjust auto-lock duration, manage password entries, and change your master password 
+                        whenever needed.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Security Section -->
+    <section id="security" class="security">
+        <div class="container">
+            <h2>Security Architecture</h2>
+            <div class="security-content">
+                <div class="security-item">
+                    <h3>Dual Encryption Layer</h3>
+                    <p>
+                        Your vault is protected with a dual-key system: your master password and a recovery key. 
+                        Either can decrypt your vault independently, ensuring you never lose access to your passwords.
+                    </p>
+                </div>
+
+                <div class="security-item">
+                    <h3>PBKDF2 Key Derivation</h3>
+                    <p>
+                        Uses PBKDF2 with SHA-256 and 100,000 iterations to derive encryption keys from your 
+                        password, making brute-force attacks computationally infeasible.
+                    </p>
+                </div>
+
+                <div class="security-item">
+                    <h3>AES-256-GCM Encryption</h3>
+                    <p>
+                        All vault data is encrypted using AES-256-GCM, which provides both confidentiality 
+                        (AES-256) and authenticity (Galois/Counter Mode) to detect tampering.
+                    </p>
+                </div>
+
+                <div class="security-item">
+                    <h3>Cryptographically Secure Random Generation</h3>
+                    <p>
+                        All salts, nonces, and keys are generated using cryptographically secure random number 
+                        generators to ensure unpredictability.
+                    </p>
+                </div>
+
+                <div class="security-item">
+                    <h3>Session Management</h3>
+                    <p>
+                        Automatic session locking, secure in-memory handling, and proper cleanup of sensitive 
+                        data prevents unauthorized access.
+                    </p>
+                </div>
+
+                <div class="security-item">
+                    <h3>Vault File Format</h3>
+                    <p>
+                        Vault files contain an encrypted header with key material and a fully encrypted payload, 
+                        making it impossible to extract information without the master password or recovery key.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Technical Details Section -->
+    <section id="learn-more" class="technical">
+        <div class="container">
+            <h2>How It Works</h2>
+            <div class="technical-content">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <div class="step-content">
+                        <h3>Create Your Vault</h3>
+                        <p>
+                            Set your master password. SecurePass generates a unique recovery key and creates 
+                            an encrypted vault file with dual key protection.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <div class="step-content">
+                        <h3>Store Your Passwords</h3>
+                        <p>
+                            Add, organize, and manage your passwords with associated details like website URLs, 
+                            usernames, and secure notes.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <div class="step-content">
+                        <h3>Automatic Protection</h3>
+                        <p>
+                            The application automatically locks after inactivity. All data remains encrypted 
+                            in your local vault file at all times.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="step">
+                    <div class="step-number">4</div>
+                    <div class="step-content">
+                        <h3>Recovery Options</h3>
+                        <p>
+                            Forget your master password? Use your recovery key to regain access or set a new 
+                            password without losing any data.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Download Section -->
+    <section id="download" class="download">
+        <div class="container">
+            <h2>Download SecurePass</h2>
+            <p class="download-subtitle">Available for Windows • Free • No Account Required</p>
+            
+            <div class="download-grid">
+                <div class="download-card">
+                    <div class="download-icon">🏪</div>
+                    <h3>Microsoft Store</h3>
+                    <p>Secure download with automatic updates and Windows integration</p>
+                    <a href="https://www.microsoft.com/store" target="_blank" class="download-btn">
+                        Download from Microsoft Store
+                    </a>
+                </div>
+
+                <div class="download-card">
+                    <div class="download-icon">📦</div>
+                    <h3>Direct Download</h3>
+                    <p>Latest version available for direct installation</p>
+                    <a href="#" class="download-btn">
+                        Download Installer (Latest)
+                    </a>
+                </div>
+
+                <div class="download-card">
+                    <div class="download-icon">📚</div>
+                    <h3>Archive.org</h3>
+                    <p>Archived versions and full version history</p>
+                    <a href="https://archive.org" target="_blank" class="download-btn">
+                        View on Archive.org
+                    </a>
+                </div>
+            </div>
+
+            <div class="system-requirements">
+                <h3>System Requirements</h3>
+                <ul>
+                    <li>.NET 8.0 Runtime or higher</li>
+                    <li>Windows 8.1 or higher</li>
+                    <li>50 MB disk space</li>
+                    <li>No internet connection required</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="pricing">
+        <div class="container">
+            <h2>Pricing</h2>
+            <p class="pricing-subtitle">One Simple Plan: Free</p>
+            
+            <div class="pricing-card featured">
+                <h3>SecurePass Free</h3>
+                <div class="price">
+                    <span class="amount">$0</span>
+                    <span class="period">Forever</span>
+                </div>
+                <p class="price-description">Professional password management with zero cost</p>
+                
+                <ul class="features-list">
+                    <li>✓ Unlimited password entries</li>
+                    <li>✓ Military-grade AES-256-GCM encryption</li>
+                    <li>✓ Recovery keys for account recovery</li>
+                    <li>✓ Auto-lock protection</li>
+                    <li>✓ Customizable security settings</li>
+                    <li>✓ Offline operation</li>
+                    <li>✓ Local vault storage</li>
+                    <li>✓ No subscriptions or upsells</li>
+                    <li>✓ No data collection</li>
+                    <li>✓ Lifetime updates</li>
+                </ul>
+                
+                <a href="#download" class="cta-button primary">Get Started Free</a>
+            </div>
+
+            <div class="pricing-note">
+                <p>
+                    <strong>No hidden fees.</strong> SecurePass is completely free forever. 
+                    We believe security should never be behind a paywall.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About SecurePass</h2>
+            
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Our Mission</h3>
+                    <p>
+                        SecurePass is built on a simple principle: your passwords are your responsibility, 
+                        and they deserve the best protection. We created SecurePass to give individuals and 
+                        organizations enterprise-grade security without compromising control or privacy.
+                    </p>
+                    <p>
+                        In an era of data breaches and privacy concerns, we believe password management 
+                        should be secure, transparent, and completely under your control. That's why SecurePass 
+                        is open, offline-first, and free.
+                    </p>
+                </div>
+
+                <div class="about-contact">
+                    <h3>Get In Touch</h3>
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <strong>Developer:</strong>
+                            <span>jamessjourney</span>
+                        </div>
+                        <div class="contact-item">
+                            <strong>Website:</strong>
+                            <a href="https://securepass-vault.org" target="_blank">securepass-vault.org</a>
+                        </div>
+                        <div class="contact-item">
+                            <strong>Copyright:</strong>
+                            <span>© 2026 SecurePass</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="about-grid">
+                <div class="about-card">
+                    <h4>Security First</h4>
+                    <p>Built with military-grade encryption standards and security best practices from day one.</p>
+                </div>
+
+                <div class="about-card">
+                    <h4>Privacy Focused</h4>
+                    <p>Your data never leaves your device. No cloud, no tracking, no analytics.</p>
+                </div>
+
+                <div class="about-card">
+                    <h4>Community Driven</h4>
+                    <p>Open development and transparent security for complete trust and accountability.</p>
+                </div>
+
+                <div class="about-card">
+                    <h4>Always Free</h4>
+                    <p>No paywalls, no subscriptions. Professional security accessible to everyone.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>SecurePass</h4>
+                    <p>Professional password management. Free forever.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Product</h4>
+                    <ul>
+                        <li><a href="#download">Download</a></li>
+                        <li><a href="#features">Features</a></li>
+                        <li><a href="#security">Security</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="https://securepass-vault.org" target="_blank">Website</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Legal</h4>
+                    <ul>
+                        <li><a href="#privacy">Privacy Policy</a></li>
+                        <li><a href="#terms">Terms of Service</a></li>
+                        <li><a href="#security-disclosure">Security Disclosure</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 SecurePass. Developed by jamessjourney. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
